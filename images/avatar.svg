@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="-256 -256 512 512">
+	<style type="text/css">
+		*{fill:none;stroke-linecap:round;}
+		.thick{stroke-width:32;}
+		.thin{stroke-width:22;}
+		.wall{fill:#ddd;}
+		.shirt{fill:#004e75;}
+		.skin{fill:#d8b098;}
+		.hairStroke{stroke:#b59481;}
+		.hairFill{fill:#b59481;}
+		.eyeball{fill:#fff;}
+		.pupil{fill:#3e2c22;}
+		.brow{stroke:#3e2e22;}
+		.mouth{stroke:#604e46;}
+		.beard{stroke:#3e2c22;}
+	</style>
+	<rect id="wall" class="wall" x="-256" y="-256" width="512" height="512"/>
+	<circle id="shirt" class="shirt" cy="294" r="180"/>
+	<circle id="neck" class="skin" cy="144" r="66"/>
+	<circle id="head" class="skin" r="182"/>
+	<path id="sideHair" class="thick hairStroke" d="M -168,0 A 100,100 0 0 1 168,0"/>
+	<path id="topHair" class="thick hairStroke hairFill" d="M -44,-162 A 50,50 0 0 0 44,-162"/>
+	<circle id="eyeball1" class="eyeball" cx="-66" r="38"/>
+	<circle id="eyeball2" class="eyeball" cx="+66" r="38"/>
+	<circle id="pupil1" class="pupil" cx="-66" r="16"/>
+	<circle id="pupil2" class="pupil" cx="+66" r="16"/>
+	<path id="brow1" class="thin brow" d="M -102,-24 A 50,50 0 0 1 -30,-24"/>
+	<path id="brow2" class="thin brow" d="M +102,-24 A 50,50 0 0 0 +30,-24"/>
+	<path id="mouth" class="thin mouth" d="M -26,84 A 38,38 0 0 0 26,84"/>
+	<path id="chinBeard" class="thick beard" d="M -168,0 A 100,100 0 0 0 168,0"/>
+	<path id="soulPatch" class="thin beard" d="M -12,120 A 38,38 0 0 0 12,120"/>
+	<path id="moustache" class="thick beard" d="M -60,62 A 152,152 0 0 1 60,62"/>
+</svg>

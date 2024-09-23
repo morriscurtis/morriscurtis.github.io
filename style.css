@@ -1,0 +1,88 @@
+body {
+	color: #eee;
+	background-color: #222;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	align-content: center;
+}
+#avatar-container {
+	width: 256px;
+	height: 256px;
+	margin: 50px auto 20px;
+	clip-path: circle(20px, 20px, 40px, 40px);
+}
+h1 {
+	font-size: 64px;
+	margin: 20px auto;
+}
+h2 {
+	font-size: 42px;
+	margin: 20px;
+}
+.main-container {
+	width: 800px;
+	margin: 30px auto;
+	background-color: #333;
+	border-color: #555;
+	border-width: 3px;
+	border-radius: 24px;
+	border-style: solid;
+}
+.section-container {
+	width: 600px;
+	margin: 30px auto;
+	background-color: #444;
+	border-color: #555;
+	border-width: 3px;
+	border-radius: 16px;
+	border-style: solid;
+}
+.tool-entry {
+	font-size: 24px;
+	font-weight: 600;
+	height: 48px;
+	margin: 8px;
+	display: flex;
+	align-items: center;
+}
+.tool-entry-button {
+	width: 64px;
+	margin: 2px;
+	background-color: #004E75;
+	border-color: #007dbb;
+	border-width: 3px;
+	border-style: solid;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.tool-entry-button:hover {
+	background-color: #005f8e;
+}
+.tool-entry-button:active {
+	background-color: #004467;
+}
+.left-most {
+	border-radius: 12px 0 0 12px;
+	flex-direction: row;
+	flex-grow: 1;
+}
+.right-most {
+	border-radius: 0 12px 12px 0;
+	
+}
+a img {
+	width: 32px;
+	margin: 8px;
+}
+.app-name {
+	margin: 8px;
+}
+.version-tag {
+	color: #004E75;
+	font-style: italic;
+	padding: 0 8px;
+	margin: 8px;
+	background-color: #ddd;
+	border-radius: 6px;
+}
