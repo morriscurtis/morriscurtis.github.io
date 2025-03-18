@@ -1,9 +1,11 @@
 body {
-	color: #eee;
-	background-color: #222;
+	color: #fff;
+	background-color: #1c1c1c;
 	font-family: "Roboto", sans-serif;
 	text-align: center;
 	align-content: center;
+	margin: 0;
+	padding: 0;
 }
 #avatar-container {
 	width: 256px;
@@ -12,49 +14,51 @@ body {
 	clip-path: circle(20px, 20px, 40px, 40px);
 }
 h1 {
-	font-size: 64px;
-	margin: 20px auto;
+	font-size: 48px;
+	margin: 20px;
 }
 h2 {
-	font-size: 42px;
+	font-size: 32px;
 	margin: 20px;
 }
 .main-container {
 	width: 800px;
 	margin: 30px auto;
-	background-color: #333;
-	border-color: #555;
-	border-width: 3px;
-	border-radius: 24px;
+	background-color: #212121;
+	border-color: #222;
+	border-width: 1px;
+	border-radius: 8px;
 	border-style: solid;
 }
 .section-container {
 	width: 600px;
 	margin: 30px auto;
-	background-color: #444;
-	border-color: #555;
-	border-width: 3px;
-	border-radius: 16px;
+	padding: 12px;
+	background-color: #292929;
+	border-color: #1E1E1E;
+	border-width: 1px;
+	border-radius: 8px;
 	border-style: solid;
 }
 .tool-entry {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
-	height: 48px;
-	margin: 8px;
+	margin: 4px;
 	display: flex;
 	align-items: center;
 }
 .tool-entry-button {
-	width: 64px;
-	margin: 2px;
+	width: 48px;
+	height: 100%;
+	margin: 0 2px;
 	background-color: #004E75;
 	border-color: #007dbb;
-	border-width: 3px;
+	border-width: 1px;
 	border-style: solid;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	transition: 0.2s;
 }
 .tool-entry-button:hover {
 	background-color: #005f8e;
@@ -63,26 +67,28 @@ h2 {
 	background-color: #004467;
 }
 .left-most {
-	border-radius: 12px 0 0 12px;
+	border-radius: 4px 0 0 4px;
 	flex-direction: row;
 	flex-grow: 1;
 }
 .right-most {
-	border-radius: 0 12px 12px 0;
+	border-radius: 0 8px 8px 0;
 	
 }
 a img {
-	width: 32px;
+	height: 20px;
 	margin: 8px;
 }
 .app-name {
-	margin: 8px;
+	margin: 0 6px 0 0;
 }
 .version-tag {
 	color: #004E75;
 	font-style: italic;
 	padding: 0 8px;
-	margin: 8px;
-	background-color: #ddd;
+	background-color: #dddddd;
 	border-radius: 6px;
+}
+a {
+	cursor: pointer; 
 }
