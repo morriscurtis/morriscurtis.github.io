@@ -1,11 +1,14 @@
-body {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	color: #fff;
-	background-color: #1c1c1c;
 	font-family: "Roboto", sans-serif;
 	text-align: center;
 	align-content: center;
-	margin: 0;
-	padding: 0;
+}
+body {
+	background-color: #1c1c1c;
 }
 #avatar-container {
 	width: 256px;
@@ -30,7 +33,7 @@ h2 {
 	border-radius: 8px;
 	border-style: solid;
 }
-.section-container {
+section {
 	width: 600px;
 	margin: 30px auto;
 	padding: 12px;
@@ -40,14 +43,14 @@ h2 {
 	border-radius: 8px;
 	border-style: solid;
 }
-.tool-entry {
+#tools li {
 	font-size: 20px;
 	font-weight: 600;
 	margin: 4px;
 	display: flex;
 	align-items: center;
 }
-.tool-entry-button {
+#tools li a {
 	width: 48px;
 	height: 100%;
 	margin: 0 2px;
@@ -60,20 +63,19 @@ h2 {
 	flex-direction: column;
 	transition: 0.2s;
 }
-.tool-entry-button:hover {
-	background-color: #005f8e;
-}
-.tool-entry-button:active {
-	background-color: #004467;
-}
-.left-most {
-	border-radius: 4px 0 0 4px;
+#tools li a:first-of-type {
+	border-radius: 6px 0 0 6px;
 	flex-direction: row;
 	flex-grow: 1;
 }
-.right-most {
-	border-radius: 0 8px 8px 0;
-	
+#tools li a:last-of-type {
+	border-radius: 0 6px 6px 0;
+}
+#tools li a:hover {
+	background-color: #005f8e;
+}
+#tools li a:active {
+	background-color: #004467;
 }
 a img {
 	height: 20px;
